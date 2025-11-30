@@ -21,18 +21,15 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Мултиплејер видео игра, Ауторитативан сервер за игру, Клијент-сервер архитектура, Системи у реалном времену, Асинхрона комуникација"
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     Овај рад представља развој _RustyArena_, мултиплејер видео игре засноване на Rust-у и Godot engine-у. Систем садржи ауторитативан сервер за игру и клијентску апликацију, уз засебан сервер за аутентификацију корисника. Комуникација је реализована комбинацијом UDP-а за ажурирање стања игре у реалном времену и TCP-а за безбедну размену података. Примењене су технике client-side prediction и server reconciliation ради ублажавања кашњења и губитка пакета. Рад демонстрира да Rust обезбеђује стабилну, меморијски безбедну и перформантну основу за развој мултиплејер игара.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "Multiplayer video game, Authoritative game server, Client-server architecture, Real-time systems, Asynchronous communication"
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+     This thesis presents the development of _RustyArena_, a multiplayer video game built with Rust and the Godot engine. The system consists of an authoritative game server and a client application, with a separate server for user authentication. Communication is implemented using both UDP for real-time game state updates and TCP for secure data exchange. Client-side prediction and server reconciliation techniques were applied to mitigate latency and packet-loss effects. The results demonstrate that Rust provides a stable, memory-safe, and high-performance foundation for multiplayer game development.
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
