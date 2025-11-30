@@ -37,19 +37,26 @@
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
 #let zadatak = [
-     #lorem(100)
+
+    Истражити област мрежних мултиплејер видео игара. Дизајнирати мултиплејер
+    игру и имплементирати је на програмском језику Раст.
+
+    У изради користити препоручену праксу из области софтверског инжењерства.
+
+    Детаљно документовати решење.
+
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
-#let komisija_predsednik = "Петар Петровић"
+#let datum_odbrane = "04.12.2025"
+#let komisija_predsednik = "Марко Марковић"
 #let komisija_predsednik_zvanje = "ванредни професор"
-#let komisija_clan = "Марко Марковић"
+#let komisija_clan = "Синиша Николић"
 #let komisija_clan_zvanje = "доцент"
 
 // На енглеском уписати чланове на латиници
-#let komisija_predsednik_eng = "Petar Petrović"
-#let komisija_clan_eng = "Marko Marković"
+#let komisija_predsednik_eng = "Marko Marković"
+#let komisija_clan_eng = "Sinisa Nikolić"
 #let mentor_eng = "Igor Dejanović"
 
 
